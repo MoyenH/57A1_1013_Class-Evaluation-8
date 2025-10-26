@@ -1,0 +1,40 @@
+/* Global styles */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+  url('https://via.placeholder.com/1600x800') center/cover no-repeat;
+  padding: 150px 20px;
+}
+
+/* Buttons and Cards */
+.btn:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Navbar */
+.navbar {
+  transition: background 0.3s;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
